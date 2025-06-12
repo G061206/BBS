@@ -65,7 +65,7 @@ KV_REST_API_TOKEN=your-token-here
 布局文件：src/app/layout.tsx - 应用程序的主布局  
 样式文件：src/app/globals.css - 全局CSS样式  
 API路由：src/app/api/messages/route.ts - 处理留言提交  
-        - src/app/api/messages/random/route.ts - 处理随机获取留言  
+         src/app/api/messages/random/route.ts - 处理随机获取留言  
 
 ## 修改字号和颜色的方法  
 
@@ -89,8 +89,8 @@ Tailwind CSS中，颜色通过以下类来控制：
 色调范围从100到900，如blue-100（浅）到blue-900（深）  
 
 3. 修改背景渐变  
-要修改页面背景渐变，找到src/app/page.tsx中的main元素：  
+要修改页面背景渐变，找到src/app/page.tsx中的main元素  
 
 4. 修改全局样式  
-如果您想修改全局样式，可以编辑src/app/globals.css文件。例如，添加自定义字体或修改默认文本颜色。  
+如果您想修改全局样式，可以编辑src/app/globals.css文件
 
