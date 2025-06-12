@@ -1,6 +1,6 @@
 # 杭高钱塘留言板
 
-这是一个使用 [Next.js](https://nextjs.org) 创建的留言板项目，用于杭高钱塘班级毕业留言。
+这是一个使用 [Next.js]创建的留言板项目，用于毕业留言。
 
 ## 功能
 
@@ -9,7 +9,7 @@
 - 随机抽取留言功能
 - 使用Vercel KV (Redis)存储数据
 
-## 开始使用
+## 本地测试
 
 首先，安装依赖：
 
@@ -55,11 +55,3 @@ KV_REST_API_TOKEN=your-token-here
 - [Vercel KV](https://vercel.com/docs/storage/vercel-kv) - 数据存储
 - [TypeScript](https://www.typescriptlang.org/) - 类型安全
 
-## 了解更多
-
-要了解更多关于 Next.js 的信息，请查看以下资源：
-
-- [Next.js 文档](https://nextjs.org/docs) - 了解 Next.js 的特性和 API。
-- [学习 Next.js](https://nextjs.org/learn) - 一个交互式的 Next.js 教程。
-
-你可以查看 [Next.js GitHub 仓库](https://github.com/vercel/next.js) - 欢迎你的反馈和贡献！
