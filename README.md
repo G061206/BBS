@@ -76,10 +76,10 @@ API路由：`src/app/api/messages/route.ts` - 处理留言提交
 ## 修改密码的方法  
 
 修改如下文件中的密码常量：  
-`src\app\page.tsx  `
-`src\app\layout.tsx  `
-`src\app\api\messages\route.ts  `
-`src\app\api\messages\random\route.ts`
+`src\app\page.tsx  `   
+`src\app\layout.tsx  `   
+`src\app\api\messages\route.ts  `  
+`src\app\api\messages\random\route.ts`  
 
 ## 修改字号和颜色的方法  
 
