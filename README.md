@@ -73,6 +73,14 @@ yarn dev
 API路由：src/app/api/messages/route.ts - 处理留言提交  
          src/app/api/messages/random/route.ts - 处理随机获取留言  
 
+## 修改密码的方法  
+
+修改如下文件中的密码常量：  
+src\app\page.tsx  
+src\app\layout.tsx  
+src\app\api\messages\route.ts  
+src\app\api\messages\random\route.ts
+
 ## 修改字号和颜色的方法  
 
 项目使用Tailwind CSS进行样式设计，您可以通过以下方式修改UI：  
