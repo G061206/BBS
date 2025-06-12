@@ -50,7 +50,7 @@ yarn dev
    - `KV_REST_API_TOKEN` - Upstash Redis访问令牌
    - `KV_REST_API_READ_ONLY_TOKEN` - (可选) 只读令牌
 4.部署
-5.部署成功后，会生成一个.vercel.app的网址，此时挂上代理即可访问，但是国内无法访问
+5.部署成功后，会生成一个后缀为.vercel.app的网址，此时挂上代理即可访问，但是国内无法访问
 6.准备一个国内域名，配置一条CNAME解析，即可实现国内流畅访问
 
 ## 技术栈
@@ -67,19 +67,19 @@ yarn dev
 可快速修改前端代码，使网页显示你需要的内容  
 项目使用Next.js的App Router结构，主要文件如下：  
 
-主页面：src/app/page.tsx - 主要的留言板界面  
-布局文件：src/app/layout.tsx - 应用程序的主布局  
-样式文件：src/app/globals.css - 全局CSS样式  
-API路由：src/app/api/messages/route.ts - 处理留言提交  
-         src/app/api/messages/random/route.ts - 处理随机获取留言  
+主页面：`src/app/page.tsx` - 主要的留言板界面  
+布局文件：`src/app/layout.tsx` - 应用程序的主布局  
+样式文件：`src/app/globals.css` - 全局CSS样式  
+API路由：`src/app/api/messages/route.ts` - 处理留言提交  
+         `src/app/api/messages/random/route.ts` - 处理随机获取留言  
 
 ## 修改密码的方法  
 
 修改如下文件中的密码常量：  
-src\app\page.tsx  
-src\app\layout.tsx  
-src\app\api\messages\route.ts  
-src\app\api\messages\random\route.ts
+`src\app\page.tsx  `
+`src\app\layout.tsx  `
+`src\app\api\messages\route.ts  `
+`src\app\api\messages\random\route.ts`
 
 ## 修改字号和颜色的方法  
 
@@ -87,24 +87,24 @@ src\app\api\messages\random\route.ts
 
 1. 修改字号  
 在Tailwind CSS中，字号通过text-{size}类来控制，例如：  
-text-xs - 极小  
-text-sm - 小  
-text-base - 基本（默认）  
-text-lg - 大  
-text-xl - 特大  
-text-2xl, text-3xl, text-4xl等 - 更大的字号  
+`text-xs` - 极小  
+`text-sm` - 小  
+`text-base` - 基本（默认）  
+`text-lg` - 大  
+`text-xl` - 特大  
+`text-2xl`, `text-3xl`, `text-4xl`等 - 更大的字号  
 
 2. 修改颜色
 Tailwind CSS中，颜色通过以下类来控制：  
-文本颜色：text-{color}-{shade}  
-背景颜色：bg-{color}-{shade}  
-边框颜色：border-{color}-{shade}  
-颜色包括：gray, red, yellow, green, blue, indigo, purple, pink等  
+文本颜色：`text-{color}-{shade}  `
+背景颜色：`bg-{color}-{shade}  `
+边框颜色：`border-{color}-{shade}  `
+颜色包括：`gray, red, yellow, green, blue, indigo, purple, pink`等  
 色调范围从100到900，如blue-100（浅）到blue-900（深）  
 
 3. 修改背景渐变  
-要修改页面背景渐变，找到src/app/page.tsx中的main元素  
+要修改页面背景渐变，找到`src/app/page.tsx中`的`main`元素  
 
 4. 修改全局样式  
-如果您想修改全局样式，可以编辑src/app/globals.css文件
+如果您想修改全局样式，可以编辑`src/app/globals.css`文件
 
