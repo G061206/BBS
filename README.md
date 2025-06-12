@@ -1,6 +1,9 @@
 # 杭高钱塘留言板
 
-这是一个使用 [Next.js]创建的留言板项目，用于毕业留言。
+这是一个使用 [Next.js]创建的留言板项目，用于毕业留言  
+面向毕业季的高中生们，可快速部署自己学校或班级的留言板网站  
+推荐使用Vercel部署，可连接Github仓库一键部署，且免费额度足以完成此项目，但是需要购买一个国内域名并进行解析，推荐阿里云
+
 
 ## 功能
 
@@ -11,7 +14,16 @@
 
 ## 本地测试
 
-首先，安装依赖：
+1.要在本地开发和测试本项目，需注册Vercel账号，创建一个Vercel KV (Redis)数据库，复制URL和TOKEN  
+
+2.在项目根目录创建一个`.env.local`文件并添加以下环境变量：
+
+```
+KV_URL=https://your-instance.upstash.io
+KV_REST_API_TOKEN=your-token-here
+```
+
+2.安装依赖：
 
 ```bash
 npm install
@@ -19,7 +31,7 @@ npm install
 yarn install
 ```
 
-然后，运行开发服务器：
+3.运行开发服务器：
 
 ```bash
 npm run dev
@@ -27,7 +39,7 @@ npm run dev
 yarn dev
 ```
 
-在浏览器中打开 [http://localhost:3000](http://localhost:3000) 查看结果。
+4.在浏览器中打开 [http://localhost:3000](http://localhost:3000) 查看结果。
 
 ## 部署到 Vercel
 
@@ -40,12 +52,7 @@ yarn dev
 
 ## 本地开发
 
-要在本地开发和测试项目，请创建一个`.env.local`文件并添加以下环境变量：
-
-```
-KV_URL=https://your-instance.upstash.io
-KV_REST_API_TOKEN=your-token-here
-```
+要在本地开发和测试项目，
 
 ## 技术栈
 
