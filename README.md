@@ -49,6 +49,7 @@ yarn dev
     - `KV_URL`  Upstash Redis实例的URL
     - `KV_REST_API_TOKEN`  Upstash Redis访问令牌
     - `KV_REST_API_READ_ONLY_TOKEN`  (可选) 只读令牌
+
 4.部署  
 5.部署成功后，会生成一个后缀为.vercel.app的网址，此时挂上代理即可访问，但是国内无法访问  
 6.准备一个国内域名，配置一条CNAME解析，即可实现国内流畅访问  
